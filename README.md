@@ -18,15 +18,10 @@ tar -zxf cfst-DNS.tar.gz
 
 # 赋予执行权限
 chmod +x CloudflareST
-
-# 运行
-bash /usr/CloudflareST/cfst-DNS.sh
-
 ```
-#### 修改cfst-DNS.sh中的两处地方
-* bandwidth 处是带宽选择
+#### 修改cfst-DNS.sh中的一处地方
 
-* 一处是微信/Telegram推送token
+* 修改微信/Telegram推送token
 
 <img src="./image/1.png" width=80% alt="显示不了图片，开一下VPN吧🛫">
 
