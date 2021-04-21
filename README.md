@@ -11,7 +11,7 @@ mkdir CloudflareST
 cd CloudflareST
 
 # 下载 CloudflareST 压缩包（自行根据需求替换 URL 中版本号和文件名）
-wget -N https://raw.githubusercontent.com/Lbingyi/CloudflareST/main/cfst-DNS.zip
+wget -N https://cdn.jsdelivr.net/gh/Lbingyi/CloudflareST@main/cfst-DNS.zip
 
 # 解压（不需要删除旧文件，会直接覆盖，自行根据需求替换 文件名）
 tar -zxf cf-openwrt.zip
