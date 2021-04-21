@@ -20,7 +20,7 @@ tar -zxf cfst-DNS.tar.gz
 chmod +x CloudflareST
 
 # 运行
-bash /usr/cloudflare/cf-openwrt.sh
+bash /usr/CloudflareST/cfst-DNS.sh
 
 ```
 #### 修改cfst-DNS.sh中的两处地方
