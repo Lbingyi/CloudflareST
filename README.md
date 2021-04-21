@@ -14,7 +14,7 @@ cd CloudflareST
 wget -N https://cdn.jsdelivr.net/gh/Lbingyi/CloudflareST@main/cfst-DNS.zip
 
 # 解压（不需要删除旧文件，会直接覆盖，自行根据需求替换 文件名）
-tar -zxf cf-openwrt.zip
+tar -zxf cfst-DNS.zip
 
 # 赋予执行权限
 chmod +x CloudflareST
