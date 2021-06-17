@@ -1,8 +1,8 @@
 # 路由器优选IP脚本设置定时更换优选ip
 * 用ssh连接软件连接opewrt
 ```Bash
-# 进入usr文件夹
-cd /usr
+# 进入root文件夹
+cd /root
 
 # 如果是第一次使用，则建议创建新文件夹（后续更新请跳过该步骤）
 mkdir CloudflareST
@@ -28,8 +28,8 @@ chmod +x CloudflareST
 * 0代表分9代表小时，意思是9：00整开始运行脚本
 ```Bash
 
-0 9 * * * bash /usr/CloudflareST/cfst-DNS.sh
-0 20 * * * bash /usr/CloudflareST/cfst-DNS.sh
+0 9 * * * bash /root/CloudflareST/cfst-DNS.sh
+0 20 * * * bash /root/CloudflareST/cfst-DNS.sh
 ```
 * 添加计划任务
 * 依次进入 系统-计划任务
@@ -40,7 +40,7 @@ chmod +x CloudflareST
 * 到这里就完成全部操作了，然后就是等待自动执行。
 * 当然，我们可以手动来执行一次，执行命令：
 ```Bash
-bash /usr/CloudflareST/cfst-DNS.sh
+bash /root/CloudflareST/cfst-DNS.sh
 ```
 
 ## 修改于CloudflareSpeedTest
