@@ -18,6 +18,9 @@ tar -zxf cfst-DNS.tar.gz
 
 # 赋予执行权限
 chmod +x CloudflareST
+
+# 首次建议手动执行命令
+bash /root/CloudflareST/cfst-DNS.sh
 ```
 #### 修改cfst-DNS.sh中的一处地方
 
