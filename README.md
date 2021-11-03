@@ -8,7 +8,7 @@ cd /root
 mkdir CloudflareST
 
 # 进入文件夹（后续更新，只需要从这里重复下面的下载、解压命令即可）
-cd CloudflareST
+cd /CloudflareST
 
 # 下载 CloudflareST 压缩包（自行根据需求替换 URL 中版本号和文件名）
 wget -N https://cdn.jsdelivr.net/gh/Lbingyi/CloudflareST@main/cfst-DNS.tar.gz
